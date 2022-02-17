@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+@tailwind screens;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    @apply bg-dark scroll-smooth;
+}
+
+#root {
+    @apply h-screen;
+}
+
+.active {
+    @apply before:absolute before:bottom-0 before:left-0;
+}
